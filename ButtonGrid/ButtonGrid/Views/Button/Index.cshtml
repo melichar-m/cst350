@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ButtonGrid.Models.ButtonModel>
+
+<style>
+    .game-button {
+        width: 85px;
+        border: none;
+    }
+
+    .game-button-image {
+        width: 70px;
+    }
+
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .line-break {
+        flex-basis: 100%;
+        height: 0;
+    }
+
+    .button-label {
+        font-size: 8px;
+        text-align: center;
+    }
+</style>
+@{
+    string[] imageNames = { "button_red.jpg", "button_blue.png", "button_purple.png", "button_green.png" };
+}
+
+<div class="button-container">
+    @{
+        bool allSameState = true;
+        int firstButtonState = Model.First().ButtonState;
+    }
+
+    @for (int i = 0; i < Model.Count(); i++)
+    {
+        if (i % 5 == 0)
+        {
+            <div class="line-break"></div>
+        }
+
+        if (Model.ElementAt(i).ButtonState != firstButtonState)
+        {
+            allSameState = false;
+        }
+
+        <a href="@Url.Action("HandleButtonClick", "Button", new { buttonNumber = Model.ElementAt(i).Id })">
+            <img class="game-button" src="~/wwwroot/Content/images/@imageNames[Model.ElementAt(i).ButtonState]" />
+            <div class="button-label">@Model.ElementAt(i).Id, @Model.ElementAt(i).ButtonState</div>
+        </a>
+
+    }
+
+    @if (allSameState)
+    {
+        <div>Congratulations! All buttons have the same state.</div>
+    }
+</div>
+
+
