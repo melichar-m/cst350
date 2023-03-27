@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-03-19T23:48:39.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="NjC7o6lEKARtZR_-eYKH" version="21.0.7" type="github">
+  <diagram name="Page-1" id="cAaAv37cGJ24zCGd53El">
+    <mxGraphModel dx="2227" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;mainText=,;recursiveResize=0;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-160" width="1050" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-2" value="Registration" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-3" value="https://www.mmelichar.com" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-4" value="My Webpage" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=30;fontFamily=Verdana" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="430" y="125" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-5" value="Registration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="495" y="215" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-6" value="username" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="455" y="245" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-7" value="password" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="455" y="285" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-9" value="Username" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="380" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-10" value="Password" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="380" y="285" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-11" value="Register" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="465" y="360" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-12" value="e-mail" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="455" y="320" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wmkAcRC3FmP4HdArzLYf-13" value="E-Mail" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="wmkAcRC3FmP4HdArzLYf-1">
+          <mxGeometry x="380" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
