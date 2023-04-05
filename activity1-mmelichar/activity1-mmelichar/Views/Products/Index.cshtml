@@ -1,3 +1,20 @@
-﻿<html>
-    <h1>Text</h1>
-</html>
+﻿@model IEnumerable<activity1_mmelichar.Models.ProductModel>
+
+<div class="container d-flex flex-wrap">
+    @foreach (var item in Model)
+    {
+        <div class="card" style="width: 18rem; margin:5px">
+            <img src="https://loremflickr.com/320/240?lock=@item.Id" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+
+                <p class="card-text">@Html.DisplayFor(modelItem => item.Price)</p>
+                <div class="btn-group" role="group">
+                    @Html.ActionLink("View Product", "ShowOneProduct", "Products", new { id = item.Id }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Edit", "ShowEditForm", new { id = item.Id }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-primary" })
+                </div>
+            </div>
+        </div>
+    }
+</div>

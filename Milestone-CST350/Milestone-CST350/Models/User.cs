@@ -13,10 +13,12 @@ namespace Milestone_CST350.Models
 
         [Required]
         [Display(Name = "First Name")]
+        [MaxLength(32)]
         public string FirstName { get; set; }
 
         [Required]
         [Display(Name = "Last Name")]
+        [MaxLength(32)]
         public string LastName { get; set; }
 
         [Required]
