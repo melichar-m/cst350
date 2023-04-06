@@ -20,7 +20,8 @@ namespace Milestone_CST350.Models
             string state,
             string email,
             string username,
-            string password)
+            string password,
+            string confirmPassword)
         {
             FirstName = firstName;
             LastName = lastName;
@@ -30,6 +31,7 @@ namespace Milestone_CST350.Models
             Email = email;
             Username = username;
             Password = password;
+            ConfirmPassword = confirmPassword;
         }
 
         [Display(Name = "First Name")]
@@ -66,5 +68,9 @@ namespace Milestone_CST350.Models
         [Required(ErrorMessage = "Please enter a password.")]
         [MinLength(8, ErrorMessage = "Password must be at least 8 characters long.")]
         public string Password { get; set; }
+        [Display(Name ="Confirm Password")]
+        [Required(ErrorMessage ="Please confirm your password.")]
+        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+        public string ConfirmPassword { get; set; }
     }
 }

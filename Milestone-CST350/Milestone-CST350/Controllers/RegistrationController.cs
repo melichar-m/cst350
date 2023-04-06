@@ -49,7 +49,7 @@ namespace Milestone_CST350.Controllers
                     if (rowsAffected > 0)
                     {
                         // Redirect to success page, Login page so that the user has to log in to their account before they can play
-                        return RedirectToAction("Login");
+                        return RedirectToAction("../Login");
                     }
                     else
                     {
